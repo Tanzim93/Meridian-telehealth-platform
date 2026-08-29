@@ -1,0 +1,16 @@
+/* ---------- Auth ---------- */
+  #view-auth{ min-height:100vh; display:flex; align-items:center; justify-content:center; padding:32px; }
+  .auth-card{ width:100%; max-width:380px; background:var(--bg-elevated); border-radius:18px; border:1px solid var(--line-soft); box-shadow:var(--shadow); padding:34px; }
+  .auth-card .brand{ justify-content:center; margin-bottom:6px; }
+  .auth-card .tag{ text-align:center; font-size:13.5px; color:var(--ink-faint); margin-bottom:24px; }
+  .tabs-pill{ display:flex; background:var(--bg-sunken); border-radius:999px; padding:4px; margin-bottom:22px; }
+  .tabs-pill button{ flex:1; border:none; background:transparent; padding:9px; border-radius:999px; font-size:13.5px; font-weight:600; color:var(--ink-soft); }
+  .tabs-pill button.active{ background:var(--bg-elevated); color:var(--teal-deep); box-shadow:0 1px 3px rgba(18,42,36,0.12); }
+  .field{ margin-bottom:14px; }
+  .field label{ display:block; font-size:12.5px; font-weight:600; color:var(--ink-soft); margin-bottom:6px; }
+  .field input, .field select, .field textarea{
+    width:100%; border:1.5px solid var(--line); border-radius:10px; padding:11px 12px; font-size:14px; color:var(--ink); background:var(--bg-elevated);
+  }
+  .field input:focus, .field select:focus, .field textarea:focus{ outline:none; border-color:var(--teal); box-shadow:0 0 0 3px var(--teal-pale); }
+  .auth-note{ text-align:center; font-size:12.5px; color:var(--ink-faint); margin-top:16px; line-height:1.5; }
+  .auth-error{ background:var(--coral-pale); color:#9C3821; font-size:13px; padding:10px 12px; border-radius:10px; margin-bottom:14px; }

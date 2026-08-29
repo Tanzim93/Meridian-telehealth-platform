@@ -1,0 +1,190 @@
+{
+  "doctors": [
+    {
+      "id": "d1",
+      "name": "Dr. Amara Osei",
+      "specialty": "Family Medicine",
+      "years": 12,
+      "rating": 4.9,
+      "reviews": 312,
+      "price": 75,
+      "bio": "Dr. Osei focuses on whole-family primary care, from annual checkups to managing chronic conditions.",
+      "initials": "AO"
+    },
+    {
+      "id": "d2",
+      "name": "Dr. Rajiv Menon",
+      "specialty": "Cardiology",
+      "years": 18,
+      "rating": 4.8,
+      "reviews": 198,
+      "price": 120,
+      "bio": "Dr. Menon specializes in preventive cardiology and managing hypertension, arrhythmia, and cholesterol.",
+      "initials": "RM"
+    },
+    {
+      "id": "d3",
+      "name": "Dr. Sofia Lindqvist",
+      "specialty": "Dermatology",
+      "years": 9,
+      "rating": 4.9,
+      "reviews": 267,
+      "price": 95,
+      "bio": "Dr. Lindqvist treats acne, eczema, and skin concerns, with a focus on long-term skin health.",
+      "initials": "SL"
+    },
+    {
+      "id": "d4",
+      "name": "Dr. Michael Chen",
+      "specialty": "Pediatrics",
+      "years": 7,
+      "rating": 5,
+      "reviews": 145,
+      "price": 80,
+      "bio": "Dr. Chen cares for infants through teens, with a calm, kid-friendly approach to every visit.",
+      "initials": "MC"
+    },
+    {
+      "id": "d5",
+      "name": "Dr. Elena Vasquez",
+      "specialty": "Psychiatry",
+      "years": 15,
+      "rating": 4.7,
+      "reviews": 203,
+      "price": 140,
+      "bio": "Dr. Vasquez supports patients managing anxiety, depression, and medication management.",
+      "initials": "EV"
+    },
+    {
+      "id": "d6",
+      "name": "Dr. James Okafor",
+      "specialty": "Endocrinology",
+      "years": 11,
+      "rating": 4.8,
+      "reviews": 176,
+      "price": 110,
+      "bio": "Dr. Okafor manages diabetes, thyroid conditions, and metabolic health.",
+      "initials": "JO"
+    }
+  ],
+  "patients": [
+    {
+      "id": "u1787236477537",
+      "name": "Jordan Ray",
+      "email": "jordan.ray@email.com",
+      "phone": "Not provided",
+      "passwordHash": "$2a$08$mV/IblNGKtAt6SAH2WQt5eOH9YmklKHJziOCfZO4VkKbpaWvMSZS6",
+      "appointments": [
+        {
+          "id": "a1",
+          "doctorId": "d1",
+          "date": "Aug 6",
+          "day": "Tomorrow",
+          "time": "10:00 AM",
+          "type": "Video visit",
+          "status": "confirmed"
+        }
+      ],
+      "prescriptions": [
+        {
+          "id": "p1",
+          "name": "Lisinopril 10mg",
+          "doctor": "Dr. Rajiv Menon",
+          "instructions": "1 tablet daily, with water",
+          "status": "Active",
+          "refillsLeft": 2
+        },
+        {
+          "id": "p2",
+          "name": "Amoxicillin 500mg",
+          "doctor": "Dr. Amara Osei",
+          "instructions": "1 capsule 3x daily for 7 days",
+          "status": "Completed",
+          "refillsLeft": 0
+        }
+      ],
+      "invoices": [
+        {
+          "id": "i1",
+          "desc": "Consultation — Dr. Amara Osei",
+          "date": "Jul 22, 2026",
+          "amount": 75,
+          "status": "Paid"
+        },
+        {
+          "id": "i2",
+          "desc": "Consultation — Dr. Rajiv Menon",
+          "date": "Aug 1, 2026",
+          "amount": 120,
+          "status": "Unpaid"
+        }
+      ],
+      "record": {
+        "allergies": [
+          "Penicillin"
+        ],
+        "medications": [
+          "Lisinopril 10mg — daily"
+        ],
+        "conditions": [
+          "Hypertension (controlled)"
+        ],
+        "bloodType": "O+",
+        "documents": [
+          {
+            "name": "Insurance card — front.jpg"
+          },
+          {
+            "name": "Lab results — June 2026.pdf"
+          }
+        ]
+      },
+      "messages": {
+        "d1": [
+          {
+            "from": "them",
+            "text": "Hi — just checking in after your visit. How's the new dosage working?",
+            "time": "9:12 AM"
+          },
+          {
+            "from": "me",
+            "text": "Feeling better, thanks! Not as tired in the mornings anymore.",
+            "time": "9:20 AM"
+          },
+          {
+            "from": "them",
+            "text": "Great to hear. Let's keep it steady and revisit at your next appointment.",
+            "time": "9:22 AM"
+          },
+          {
+            "from": "me",
+            "text": "hi",
+            "time": "Now"
+          },
+          {
+            "from": "them",
+            "text": "Thanks for the update — Amara will follow up shortly.",
+            "time": "Now"
+          }
+        ],
+        "d2": [
+          {
+            "from": "them",
+            "text": "Your latest bloodwork looks good — cholesterol is trending down.",
+            "time": "Yesterday"
+          },
+          {
+            "from": "me",
+            "text": "thanks",
+            "time": "Now"
+          },
+          {
+            "from": "them",
+            "text": "Thanks for the update — Rajiv will follow up shortly.",
+            "time": "Now"
+          }
+        ]
+      }
+    }
+  ]
+}

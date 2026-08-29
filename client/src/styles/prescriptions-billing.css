@@ -1,0 +1,8 @@
+/* Prescriptions & billing */
+  .rx-row, .inv-row{ display:flex; align-items:center; gap:14px; padding:14px 0; border-bottom:1px solid var(--line-soft); }
+  .rx-row:last-child, .inv-row:last-child{ border-bottom:none; }
+  .rx-icon{ width:38px; height:38px; border-radius:10px; background:var(--teal-pale); color:var(--teal-deep); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .rx-row .info, .inv-row .info{ flex:1; min-width:0; }
+  .rx-row .info .t, .inv-row .info .t{ font-size:14px; font-weight:600; }
+  .rx-row .info .s, .inv-row .info .s{ font-size:12.5px; color:var(--ink-soft); margin-top:2px; }
+  .inv-row .amt{ font-family:var(--font-mono); font-weight:600; font-size:14.5px; }

@@ -1,0 +1,11 @@
+@media (max-width: 860px){
+    .hero{ grid-template-columns:1fr; }
+    .feature-grid{ grid-template-columns:1fr; }
+    #view-app{ grid-template-columns:76px 1fr; }
+    .sidebar .label-text{ display:none; }
+    .sidebar-foot .who{ display:none; }
+    .brand .word{ display:none; }
+    .grid-2, .grid-3{ grid-template-columns:1fr; }
+    .msg-shell{ grid-template-columns:1fr; height:auto; }
+    .thread-list{ max-height:180px; }
+  }

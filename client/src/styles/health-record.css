@@ -1,0 +1,10 @@
+/* Health record */
+  .record-list{ display:flex; flex-direction:column; gap:8px; }
+  .record-item{ display:flex; align-items:center; justify-content:space-between; padding:11px 14px; background:var(--bg-sunken); border-radius:10px; font-size:13.5px; }
+  .record-item .x{ background:none; border:none; color:var(--ink-faint); width:22px; height:22px; }
+  .record-item .x:hover{ color:var(--coral); }
+  .inline-add{ display:flex; gap:8px; margin-top:12px; }
+  .inline-add input{ flex:1; border:1.5px solid var(--line); border-radius:10px; padding:9px 12px; font-size:13px; }
+  .inline-add input:focus{ outline:none; border-color:var(--teal); }
+  .doc-thumb{ display:flex; align-items:center; gap:10px; padding:10px 12px; background:var(--bg-sunken); border-radius:10px; font-size:13px; }
+  .doc-thumb svg{ width:18px; height:18px; color:var(--teal); flex-shrink:0; }
