@@ -1,8 +1,8 @@
 # Meridian — Online Doctors Clinic (Multi-File Edition)
 
-Same working full-stack app as before, restructured into a proper `client/` + `server/`
+A full-stack app , restructured into a proper `client/` + `server/`
 architecture — components, pages, controllers, routes, and models each in their own file,
-in the same spirit as a typical MERN project (e.g. Prescripto).
+in the same spirit as a typical MERN project.
 
 ## Structure
 
