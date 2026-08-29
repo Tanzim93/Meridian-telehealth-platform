@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Meridian — Online Doctors Clinic (Multi-File Edition)
 
 A full-stack app , restructured into a proper `client/` + `server/`
@@ -124,3 +125,6 @@ update), and a fresh login confirmed all of it persisted correctly.
 ## Next steps toward production
 
 Same as before — swap `db.json` for Postgres/Mongo, add a real video SDK, Stripe, HL7/FHIR, etc.
+=======
+
+>>>>>>> 1ef6dcbb65ee9212864484e7f74169cfc110f71d
