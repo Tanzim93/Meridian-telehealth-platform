@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Meridian — Online Doctors Clinic (Multi-File Edition)
 
 A full-stack app , restructured into a proper `client/` + `server/`
@@ -122,9 +121,3 @@ This was verified end-to-end after the split: every route was hit with curl (sig
 booking, messaging with auto-reply, health record edits, refills, invoice payment, profile
 update), and a fresh login confirmed all of it persisted correctly.
 
-## Next steps toward production
-
-Same as before — swap `db.json` for Postgres/Mongo, add a real video SDK, Stripe, HL7/FHIR, etc.
-=======
-
->>>>>>> 1ef6dcbb65ee9212864484e7f74169cfc110f71d
